@@ -111,6 +111,3 @@
 - **Only perform additional searches if these instructions are incomplete or found to be in error.**
 - **Document any new errors or workarounds in this file for future agents.**
 
----
-
-Place this file at `.github/copilot-instructions.md`. This will ensure Copilot agents work efficiently and reliably in the `photoSort` repository.
