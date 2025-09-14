@@ -2,7 +2,7 @@
 name = "photosort"
 version = "0.1.0"
 description = "PhotoSort: Organize photos and videos by date and location."
-authors = ["fedem-p <your@email.com>"]
+authors = ["Federico Puppo"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
