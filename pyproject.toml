@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "photosort"
+version = "0.1.0"
+description = "PhotoSort: Organize photos and videos by date and location."
+authors = ["fedem-p <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+exifread = "^3.0.0"
+pillow = "^10.0.0"
+tqdm = "^4.66.0"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
