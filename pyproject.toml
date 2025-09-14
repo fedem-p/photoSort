@@ -5,7 +5,7 @@ description = "PhotoSort: Organize photos and videos by date and location."
 authors = ["Federico Puppo"]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.9,<3.12"
 exifread = "^3.0.0"
 pillow = "^10.0.0"
 tqdm = "^4.66.0"
