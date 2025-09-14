@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  photosort:
+    build: .
+    container_name: photosort
+    volumes:
+      - ./photos:/photos
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: poetry run python -m photosort.main
